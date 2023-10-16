@@ -1,0 +1,89 @@
+.columns {
+    background-color: #1A1A1A;
+}
+
+.columns .column {
+    font-family: Barlow;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    float: left;
+    width: 33.33%;
+    margin-top: 28px;
+    color: white;
+    height: 300px;
+}
+
+.columns:after {
+    content: "";
+    display: table;
+    clear: both;
+    width: 33.33%;
+}
+
+.column1 {
+    padding-left: 50px
+}
+
+.column1 h3 {
+    font-family: Londrina Solid;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.column p {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.img {
+    height: 20px;
+    width: 22px;
+}
+
+.photo {
+    padding: 5px;
+    height: 50px;
+    width: 50px
+}
+
+.secondColumns {
+    color: white;
+}
+
+.columns .column2 {
+    font-family: Barlow;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    float: left;
+    width: 33.33%;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.column2 {
+    padding-left: 50px
+}
+
+.column2 p {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.line {
+    border: 1px solid #5F5F5F;
+}
+
+.column2 .twitterIcon {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    float: right;
+}

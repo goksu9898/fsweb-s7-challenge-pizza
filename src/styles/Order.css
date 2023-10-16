@@ -1,0 +1,61 @@
+@import url('https://fonts.cdnfonts.com/css/londrina-solid');
+@import url('https://fonts.cdnfonts.com/css/bebas-neue');
+@import url('https://fonts.cdnfonts.com/css/barlow');
+
+.headerImg {
+    background-image: url('../assets/adv-form-banner.png');
+    height: 186px;
+    background-repeat: no-repeat;
+    background-position: 59% 97%;
+}
+
+.baslik10 {
+    color: white;
+    background-color: #CE2829;
+}
+
+.baslik10 h1 {
+    font-family: 'Londrina Solid';
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+}
+
+.home2 {
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    height: 420px;
+    background: #FAF7F2;
+}
+
+.breadscrumb {
+    font-family: Barlow;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #5F5F5F;
+    margin-left: 50px;
+}
+
+.breadscrumb p {
+    display: inline;
+}
+
+.breadscrumb .p1 {
+    display: inline;
+    color: #CE2829;
+}
+
+.description {
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #5F5F5F;
+}

@@ -1,0 +1,250 @@
+@import url('https://fonts.cdnfonts.com/css/barlow');
+
+.form {
+  margin-left: 50px;
+  margin-bottom: 60px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.group {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  width: 30%;
+  padding-top: 5px;
+  box-sizing: border-box;
+}
+
+label {
+  display: block;
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+  user-select: none;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.error-message {
+  color: #e74c3c;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+input[type="checkbox"]:checked+label {
+  color: #FDC913 !important;
+}
+
+button[type="submit"] {
+  width: 100%;
+  margin-top: 20px;
+  margin-left: 0px;
+  padding: 10px 20px;
+  background-color: #FDC913;
+  color: black;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 10px;
+  transition: background-color 0.3s;
+}
+
+.ekMalzemeler {
+  font-family: Barlow;
+  color: #292929;
+  margin-bottom: 4px;
+}
+
+.ekMalzemeAcıklama {
+  color: #5F5F5F;
+  font-family: Barlow;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 12px;
+}
+
+.container {
+  float: right;
+  margin-right: 479px;
+  padding-top: 5px;
+  width: 259px;
+  background-color: #FAF7F2;
+  height: 112px;
+}
+
+.left-column {
+  width: 66%;
+  display: inline;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+}
+
+.rounded-button {
+  width: 100%;
+  background-color: #FAF7F2;
+  border: none;
+  border-radius: 122px;
+  padding: 10px 20px;
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.rounded-button:hover {
+  background-color: #FDC913;
+}
+
+.chosen-button {
+  border: none;
+  border-radius: 122px;
+  padding: 10px 20px;
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  background-color: #FDC913;
+}
+
+.right-column {
+  width: 33%;
+  float: right;
+  margin-right: 357px;
+  margin-top: 5px;
+}
+
+.choseeSize {
+  font-family: Barlow;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #292929
+}
+
+.validation {
+  color: #D80027
+}
+
+.choseeSize p {
+  display: inline;
+}
+
+.choseeType p {
+  display: inline;
+}
+
+.choseeType {
+  font-family: Barlow;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #292929;
+  margin-left: 560px;
+}
+
+.pizzaSelect {
+  display: inline-flex;
+}
+
+.container p {
+  font-family: Barlow;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 0px;
+  padding-left: 5px
+}
+
+.priceInfo {
+  display: flex;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  height: 27px;
+}
+
+.priceInfo2 {
+  display: flex;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  height: 27px;
+}
+
+.priceInfo2 p {
+  color: #CE2829;
+}
+
+.priceInfo .price {
+  margin-left: 100px;
+}
+
+.priceInfo2 .price2 {
+  margin-left: 113px;
+}
+
+.orderNote p {
+  margin-bottom: 0px;
+}
+
+.orderInput .input {
+  width: 300px;
+  height: 28px;
+  border: none;
+  font-family: Barlow;
+  font-size: 12px;
+  background-color: #FAF7F2;
+  width: 400px;
+}
+
+input[type=text] {
+  border: none;
+  border-bottom: 1px solid lightgray;
+}
+
+.input::placeholder {
+  font-family: Barlow;
+  font-size: 12px;
+}
+
+.input:hover {
+  border: none;
+}
+
+.input:focus {
+  border: none;
+  outline: none;
+}
+
+.orderInput {
+  font-family: Barlow;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #292929;
+  background-color: #FAF7F2;
+  width: 986px;
+}
+
+.orderNote .line {
+  width: 986px;
+  border-top: #5F5F5F;
+  margin-left: 0px;
+}

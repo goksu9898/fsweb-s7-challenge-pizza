@@ -1,0 +1,29 @@
+@import url('https://fonts.cdnfonts.com/css/barlow');
+
+.pizzaInfo {
+    margin-left: 50px;
+}
+
+.pizzaName {
+    color: #292929;
+    font-family: Barlow;
+}
+
+.pizzaPriceRate p {
+    font-family: Barlow;
+    display: inline;
+    margin: 0px;
+    color: #292929;
+}
+
+.pizzaPriceRate .pizzaPriceRate2 {
+    display: inline;
+    float: right;
+}
+
+.pizzaPriceRate2 p {
+    font-family: Barlow;
+    display: inline;
+    margin: 30px;
+    color: #5F5F5F;
+}
